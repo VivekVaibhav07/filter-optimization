@@ -18,7 +18,6 @@ const FilterDropdown = ({ column, options, selected, onChange }) => {
       displayValue="name"
       showCheckbox
       placeholder={`Filter ${column}`}
-    //   onSearch={selectOptions}
     />
   );
 };
