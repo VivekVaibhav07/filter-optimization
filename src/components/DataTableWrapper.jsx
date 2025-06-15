@@ -50,7 +50,7 @@ const DataTableWrapper = ({ data }) => {
       pagination
       paginationPerPage={100}
       paginationRowsPerPageOptions={[100]}
-      fixedHeade
+      fixedHeader
       fixedHeaderScrollHeight="400px"
     />
   );
