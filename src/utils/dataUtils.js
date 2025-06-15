@@ -6,20 +6,6 @@ export const filterData = (data, filters) => {
   });
 };
 
-// export const getAvailableOptions = (data, currentFilters) => {
-//   const newOptions = {};
-//   ['mod3', 'mod4', 'mod5', 'mod6'].forEach(col => {
-//     const filtered = data.filter(row => {
-//       return Object.entries(currentFilters).every(([key, values]) => {
-//         if (key === col) return true;
-//         return values.length === 0 || values.includes(row[key]);
-//       });
-//     });
-//     newOptions[col] = [...new Set(filtered.map(d => d[col]))];
-//   });
-//   return newOptions;
-// };
-
 export const getAvailableOptions = (data, currentFilters) => {
   const newOptions = {};
   ['mod350', 'mod8000', 'mod20002', ].forEach(col => {

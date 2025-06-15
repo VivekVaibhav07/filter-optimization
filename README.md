@@ -1,12 +1,17 @@
-# React + Vite
+# 🔍 Filter Optimization Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based Business Intelligence (BI) dashboard that mimics filter behavior similar to platforms like Amazon. It efficiently handles large datasets, allows users to filter based on multiple attributes (`mod350`, `mod8000`, `mod20002`), and supports bookmarking of rows. Each filter is dynamically updated based on current selections.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ **Fast Filtering** on large datasets
+- 🔁 **Dynamic Options**: Filters adjust based on selected values
+- ⭐ **Bookmarking**: Save your favorite rows (using React Context)
+- 🧱 **Error Boundaries**: Isolate component errors
+- 🧪 **Unit Tested**: Includes Jest tests for core filtering logic
+- 💨 **React Window**: Optimized rendering for large tables
+- 🎨 **Tailwind CSS** for styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
